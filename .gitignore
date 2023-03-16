@@ -10,7 +10,9 @@
 
 # production
 /build
-
+/tailwind.css
+/postcss.config.js
+/tailwind.config.js
 # misc
 .DS_Store
 .env.local
