@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Admin/static/css/main.e3143cfe.css",
+    "main.js": "/Admin/static/js/main.fccf2d73.js",
+    "index.html": "/Admin/index.html",
+    "main.e3143cfe.css.map": "/Admin/static/css/main.e3143cfe.css.map",
+    "main.fccf2d73.js.map": "/Admin/static/js/main.fccf2d73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3143cfe.css",
+    "static/js/main.fccf2d73.js"
+  ]
+}
