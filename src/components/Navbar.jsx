@@ -24,7 +24,7 @@ export const Navbar = () => {
     }, [darkMode])
   return (
     <div className="dark:bg-slate-800 bg-gray-200 h-[8vh] text-purple-600 flex items-center justify-between dark:border-gray-500 border-gray-400 border-b md:px-4 px-1">
-      <div className="lg:hidden md:text-4xl">
+      <div className="lg:hidden md:text-4xl text-2xl">
         <ListIcon sx={{fontSize:'inherit'}} onClick={()=>{setSidebar(!sidebar)}}/>
       </div>
       <div className="dark:bg-gray-200 bg-white w-[40%] rounded flex items-center">
@@ -43,7 +43,7 @@ export const Navbar = () => {
             <div className="hidden md:block">English</div>
         </div>
         {/* Drak Mode Button */}
-            {darkMode?<LightModeIcon sx={{fontSize:'inherit'}} onClick={()=>{setDarkMode(!darkMode)}}/>:<DarkModeIcon onClick={()=>{setDarkMode(!darkMode)}}/>}
+            {darkMode?<LightModeIcon sx={{fontSize:'inherit'}} onClick={()=>{setDarkMode(!darkMode)}}/>:<DarkModeIcon sx={{fontSize:'inherit'}} onClick={()=>{setDarkMode(!darkMode)}}/>}
             <NotificationsActiveIcon sx={{fontSize:'inherit'}} titleAccess="Notification"/>
             <ChatBubbleIcon sx={{fontSize:'inherit'}} titleAccess="Chat"/>
             <div>

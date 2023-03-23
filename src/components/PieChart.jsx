@@ -10,7 +10,7 @@ export const PieChart = () => {
       { name: "June", Total: 1700 },
     ];
   return (
-    <div className='md:w-4/6 p-3 dark:bg-slate-800 rounded-lg customShadow text-purple-600'>
+    <div className='md:w-4/6 p-3 hidden md:block dark:bg-slate-800 rounded-lg customShadow text-purple-600'>
         <ResponsiveContainer width="100%" height="100%" >
       <AreaChart
           width={500}
